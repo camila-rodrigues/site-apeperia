@@ -9,30 +9,30 @@
 
 .plano {
   background: white;
-  width: 18em;
+  width: multiplica-pela-fonte(18);
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
-}
 
-.plano:hover {
-  background: #dedede;
-}
+  h3 {
+    color: $cor-branca;
+    font-size: 1.8em;
+    background: $cor-padrao;
+    text-align: center;
+    height: 2em;
+    padding-top: .6em;
+    margin-top: 0;
+  }
 
-.plano h3 {
-  color: $cor-branca;
-  font-size: 1.8em;
-  background: $cor-padrao;
-  text-align: center;
-  height: 2em;
-  padding-top: .6em;
-  margin-top: 0;
-}
+  div {
+    text-align: center;
+    color: $cor-padrao;
+    font-size: 2.75em;
+  }
 
-.plano div {
-  text-align: center;
-  color: $cor-padrao;
-  font-size: 2.75em;
+  &:hover {
+    background: #dedede;
+  }
 }
 
 .itens-plano {
@@ -69,6 +69,6 @@
 
 @include all-sprite-sprites;
 .sprite-icone-ok, .sprite-icone-x {
-  width: 18px;
-  height: 18px;
+  width: 19px;
+  height: 19px;
 }

@@ -630,16 +630,11 @@ header .container {
 
 .plano {
   background: white;
-  width: 18em;
+  width: 288px;
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
 }
-
-.plano:hover {
-  background: #dedede;
-}
-
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
@@ -649,11 +644,13 @@ header .container {
   padding-top: .6em;
   margin-top: 0;
 }
-
 .plano div {
   text-align: center;
   color: #c24e4b;
   font-size: 2.75em;
+}
+.plano:hover {
+  background: #dedede;
 }
 
 .itens-plano {
@@ -698,8 +695,8 @@ header .container {
 }
 
 .sprite-icone-ok, .sprite-icone-x {
-  width: 18px;
-  height: 18px;
+  width: 19px;
+  height: 19px;
 }
 
 /** Blog **/
@@ -800,7 +797,6 @@ footer {
   display: block;
   position: relative;
 }
-
 footer::after {
   content: "";
   background: url(../imagens/fundo-rodape.png);
@@ -812,7 +808,6 @@ footer::after {
   position: absolute;
   z-index: -1;
 }
-
 footer::before {
   content: "";
   background: #1e2c35;
@@ -823,13 +818,11 @@ footer::before {
   position: absolute;
   z-index: -1;
 }
-
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: 48px;
+  height: 104px;
   position: relative;
 }
-
 footer .container img {
   width: 250px;
 }
